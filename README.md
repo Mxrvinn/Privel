@@ -87,7 +87,7 @@ If you want to use this Project, do these things:
 Clone the Project :
 * git
   ```sh
-  git clone https://Mxrvinn/Privel
+  git clone https://github.com/Mxrvinn/Privel.git
   ```
 
 Install the dependencies in the folder client and server
