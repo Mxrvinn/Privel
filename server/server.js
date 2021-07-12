@@ -373,8 +373,10 @@ app.post("/api/destroycookie", (req, res) => {
 
 app.post("/api/findfriends", (req, res) => {
     var name = req.body.name
-    const sqlInsert = "SELECT * FROM user WHERE username LIKE '%" + name + "%'"
-    db.query(sqlInsert,[] ,  (err, result) =>{
+    var userid = req.session.userId
+    
+    const sqlInsert = "SELECT * FROM user WHERE id != ? AND username LIKE '%" + name + "%'"
+    db.query(sqlInsert,[userid] ,  (err, result) =>{
         if(err){
             res.send({error: "Something went wrong"})
         }else{
