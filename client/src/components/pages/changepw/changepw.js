@@ -100,7 +100,7 @@ function Changepw() {
                   } 
                 })()} 
                   <div className="card-body">
-                    <h4 className="card-title">Login to Privel</h4>
+                    <h4 className="card-title">Change Password</h4>
                       <div className="form-group">
                         <label htmlFor="name">New Password</label>
                         <input id="name" type="text" className="form-control" name="name" required autofocus  onChange={(e) => {setPassword(e.target.value)}}/>

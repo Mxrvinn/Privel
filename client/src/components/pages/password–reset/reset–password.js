@@ -71,7 +71,7 @@ function Login() {
                   } 
                 })()} 
                   <div className="card-body">
-                    <h4 className="card-title">Login to Privel</h4>
+                    <h4 className="card-title">Reset your Password</h4>
                       <div className="form-group">
                         <label htmlFor="name">Your Username</label>
                         <input id="name" type="text" className="form-control" name="name" required autofocus  onChange={(e) => {setUsername(e.target.value)}}/>
