@@ -84,9 +84,6 @@ function Login() {
                           Reset Password
                         </button>
                       </div>
-                      <div className="mt-4 text-center">
-                        Already have an account? <a href="./login">Login</a>
-                      </div>
                   </div>
                 </div>
                 <div className="footer">
