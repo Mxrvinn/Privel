@@ -109,12 +109,7 @@ Go to the Client Folder and Create a new file called ".env"
 Move this file also into the router folder
 
 
-
-
-Create a new Database with the 
-
-
-* privel.sql file:
+* Configure the MySQL database with this file:
   ```sh
   privel.sql
   ```
