@@ -118,7 +118,6 @@ Create a new Database with the
   ```sh
   privel.sql
   ```
-Move this file also into the router folder
 
 ## Security
 
